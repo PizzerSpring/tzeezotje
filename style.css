@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 55px;
+    background: url("./assets/images/tZeezotje.png");
+    min-height: 901px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background: url("./assets/images/title.png");
+    width: 269px;
+    height: 55px;
+}
+
+.nav__links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 454px;
+}
+
+.link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 157px;
+}
+
+.phoneimg {
+    display: block;
+    background: url("./assets/images/phone.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.phone {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.open {
+    margin-top: 154px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.abad {
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #fff;
+}
+
+.buttonicons__container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon__container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.social__icons {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.social__icons__container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 267px;
+}
+
+.button__container {
+    background: #3a4574;
+    width: 270px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.reserve__button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.woensdag {
+    background: #e5e5e5;
+    min-height: 100vh;
+}
+
