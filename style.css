@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 1168px;
+    max-width: 1168px;
     margin: 0 auto;
 }
 
@@ -134,8 +134,121 @@ nav {
     text-decoration: none;
 }
 
+.woensdag__container {
+    display: flex;
+}
+
+.woensdag__description {
+    margin-top: 60px;
+    
+}
+
 .woensdag {
-    background: #e5e5e5;
+    background: #fff;
     min-height: 100vh;
 }
+
+.description__container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 363px;
+    padding-bottom: 20px;
+}
+
+.description__width {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 369px;
+    padding-bottom: 20px;
+}
+
+.description__width__row2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 405px;
+    padding-bottom: 20px;
+}
+
+.icons__descriptions {
+    width: 469px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+.title__block {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+}
+
+.dot__icon__container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 39px;
+}
+
+.dot__icon {
+    display: inline-block;
+    background: url("./assets/images/ellipse.png");
+    width: 5px;
+    height: 5px;
+
+}
+
+.description__two__left {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.description__two__right {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.image__container {
+    padding: 130px;
+    position: relative;
+}
+
+.borderimg {
+    border: 1px solid #d3b47f;
+    width: 471px;
+    height: 502px;
+}
+
+.tables__left {
+    background: url("./assets/images/tables1.png");
+    width: 323px;
+    height: 486px;
+    position: absolute;
+    left: 32px;
+    bottom:0;
+}
+
+.tables__right {
+    background: url("./assets/images/tables2.png");
+    width: 323px;
+    height: 486px;
+    position: absolute;
+    top: 80px;
+    right:0;
+}
+
 
