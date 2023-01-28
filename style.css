@@ -12,7 +12,8 @@
 header {
     padding-top: 55px;
     background: url("./assets/images/tZeezotje.png");
-    min-height: 901px;
+    min-height: 100vh;
+    padding-bottom: 265px;
 }
 
 nav {
@@ -146,6 +147,7 @@ nav {
 .woensdag {
     background: #fff;
     min-height: 100vh;
+    padding-bottom: 90px;
 }
 
 .description__container {
@@ -251,4 +253,50 @@ nav {
     right:0;
 }
 
+.goede {
+    background: #3a4574;
+    padding: 220px 0;
+}
 
+.goede__textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zz {
+    display: block;
+    background: url("./assets/images/nn.png");
+    width: 83px;
+    height: 58px;
+}
+
+.goede__title {
+    margin-top: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #d3b47f;
+}
+
+.goede__par {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+    max-width: 785px;
+}
+
+.goede__footer {
+    display: block;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #d3b47f;
+}
