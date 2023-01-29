@@ -1,3 +1,5 @@
+// swiper slider
+
 const swiper = new Swiper(".swiper", {
     navigation: {
       nextEl: ".swiper-button-next",
@@ -6,6 +8,8 @@ const swiper = new Swiper(".swiper", {
     },
   });
 
+  // menuburger
+
   $('.menuBtn').click(() => {
     $('.menuBox').toggleClass('menuActive');
   })
@@ -13,6 +17,8 @@ const swiper = new Swiper(".swiper", {
   $('.reserve__button').click(() => {
     $('.form__container').toggleClass('active');
   });
+
+  // ajax 
 
   //for POST
 

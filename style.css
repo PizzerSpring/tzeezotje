@@ -1,13 +1,19 @@
+/* reset styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* container */
+
 .container {
     max-width: 1168px;
     margin: 0 auto;
 }
+
+/* header */
 
 header {
     padding-top: 55px;
@@ -151,6 +157,8 @@ nav {
     text-decoration: underline;
 }
 
+/* woensdag */
+
 .woensdag__container {
     display: flex;
 }
@@ -267,6 +275,8 @@ nav {
     top: 80px;
     right: 0;
 }
+
+/* goedze */
 
 
 .zz {
@@ -418,6 +428,8 @@ nav {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* responsive */
 
 @media screen and (max-width: 1224px) {
     .nav__links {
@@ -615,6 +627,8 @@ nav {
         display: block;
     }
 }
+
+/* menu burger */
 
 .menuBtn {
     display: flex;
