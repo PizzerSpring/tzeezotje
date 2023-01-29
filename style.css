@@ -12,6 +12,9 @@
 header {
     padding-top: 55px;
     background: url("./assets/images/tZeezotje.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 100vh;
     padding-bottom: 265px;
 }
@@ -26,6 +29,7 @@ nav {
     background: url("./assets/images/title.png");
     width: 269px;
     height: 55px;
+    margin-bottom: 30px;
 }
 
 .nav__links {
@@ -94,7 +98,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 .icon__container {
@@ -129,6 +133,7 @@ nav {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .reserve__button {
@@ -151,7 +156,6 @@ nav {
 
 .woensdag__description {
     margin-top: 60px;
-
 }
 
 .woensdag {
@@ -301,17 +305,6 @@ nav {
     color: #d3b47f;
 }
 
-/*.swiper {
-    width: 600px;
-    height: 300px;
-  }
-
-  .swiper-slide {
-    background: url("./assets/images/phone.png");
-    width: 100px;
-    height: 100px;
-  }*/
-
 .swiper {
     min-height: 100vh;
     background-color: #3a4574;
@@ -423,4 +416,190 @@ nav {
     margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1224px) {
+    .nav__links {
+        display: none;
+    }
+    header {
+        padding: 50px 130px;
+    }
+    .abad {
+        font-size: 44px;
+    }
+    .woensdag__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .goede__title {
+        font-size: 26px;
+    }
+    .goede__footer {
+        font-size: 26px;
+    }
+    .swiper-wrapper {
+        padding: 120px 0;
+    }
+    .swiper {
+        min-height: 70vh;
+    }
+    .woensdag__container {
+        flex-wrap: wrap;
+    }
+    .goede__par {
+        max-width: 425px;
+    }
+    .open {
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .tables__left {
+        width: 223px;
+        height: 436px;
+    }
+    .tables__right {
+        width: 223px;
+        height: 436px;
+    }
+    .borderimg {
+        width: 301px;
+    }
+    .goede__par {
+        max-width: 325px;
+    }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .open {
+        margin-top: 50px;
+    }
+    .swiper-wrapper {
+        padding: 60px 0;
+    }
+
+}
+@media screen and (max-width: 578px) {
+    header {
+        padding: 50px 90px;
+    }
+    .tables__left {
+        width: 173px;
+        height: 336px;
+    }
+    .tables__right {
+        width: 173px;
+        height: 336px;
+    }
+    .borderimg {
+        width: 151px;
+        height: 352px;
+    }
+    .abad {
+        font-size: 30px;
+    }
+    .title__block {
+        font-size: 20px;
+
+    }
+    .description__two__left {
+        font-size: 14px;
+    }
+    .description__two__right {
+        font-size: 14px;
+    }
+    .goede__title {
+        font-size: 20px;
+
+    }
+    .goede__footer {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 476px) {
+    .tables__left {
+        width: 123px;
+        height: 256px;
+    }
+    .tables__right {
+        width: 123px;
+        height: 256px;
+        right: 30px;
+    }
+    .borderimg {
+        width: 131px;
+        height: 252px;
+    }
+    .title__block {
+        font-size: 16px;
+
+    }
+    .description__two__left {
+        font-size: 10px;
+    }
+    .description__two__right {
+        font-size: 10px;
+    }
+    .description__container {
+        min-width: 313px;
+
+    }
+    .description__width {
+        width: 319px;
+
+    }
+    .description__width__row2 {
+        width: 355px;
+    }
+    .icons__descriptions {
+        width: 400px;
+    }
+  
+}
+@media screen and (max-width: 420px) {
+    .icons__descriptions {
+        width: 250px;
+    }
+    .description__container {
+        min-width: 193px;
+    }
+    .description__width {
+        width: 209px;
+
+    }
+    .description__width__row2 {
+        width: 225px;
+    }
+    .tables__right {
+        width: 123px;
+        height: 256px;
+        right: 80px;
+    }
+    .description__two__right {
+        font-size: 8px;
+    }
+    .description__two__left {
+        font-size: 8px;
+    }
+    .goede__par {
+        font-size: 14px;
+    }
+    .woensdag__container {
+        min-width: 320px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .abad {
+        font-size: 30px;
+        line-height: 54px;
+    }
 }
