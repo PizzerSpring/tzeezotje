@@ -23,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .logo {
@@ -602,4 +603,83 @@ nav {
         font-size: 30px;
         line-height: 54px;
     }
+
+}
+
+.hamburgermenu {
+    display: none;
+}
+
+@media screen and (max-width: 1224px) {
+    .hamburgermenu {
+        display: block;
+    }
+}
+
+.menuBtn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 4;
+    box-sizing: content-box;
+    background: #2b2a2a;
+    border: 15px solid #2b2a2a;
+    border-radius: 5px;
+}
+
+.menuBtn > span::before {
+    content: '';
+    top: -10px;
+}
+.menuBtn > span::after {
+    content: '';
+    top: 10px;
+}
+
+.menuspan,
+     .menuspan::before,
+     .menuspan::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #d3b47f;
+    }
+
+.menuBox {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 30px 20px 0 20px;
+    list-style: none;
+    text-align: left;
+    background-color: #2b2a2a;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 3;
+    border-radius: 5px;
+}
+
+.menuActive {
+    display: block;
+}
+
+.navlink {
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #d3b47f;
 }

@@ -6,6 +6,10 @@ const swiper = new Swiper(".swiper", {
     },
   });
 
+  $('.menuBtn').click(() => {
+    $('.menuBox').toggleClass('menuActive');
+  })
+
   $('.reserve__button').click(() => {
     $('.form__container').toggleClass('active');
   });
