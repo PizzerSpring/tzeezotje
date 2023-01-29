@@ -138,6 +138,7 @@ nav {
     line-height: 24px;
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 .reserve__button:hover {
     color: #d3b47f;

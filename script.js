@@ -5,16 +5,37 @@ const swiper = new Swiper(".swiper", {
       disabledClass: 'disabled_swiper_button'
     },
   });
-    
-const buttonRes = document.querySelector('.reserve__button');
-const buttonForm = document.querySelector('.but');
-const form = document.querySelector('.form__container');
 
-buttonRes.addEventListener('click', () => {
-  form.classList.toggle('active');
-})
+  $('.reserve__button').click(() => {
+    $('.form__container').toggleClass('active');
+  });
 
-buttonForm.addEventListener('click', (e) => {
-    e.preventDefault();
-})
+  //for POST
+
+  $(".form").on("submit", function(){
+    $.ajax({
+      url: '...url',
+      method: 'post',
+      dataType: 'html',
+      data: $(this).serialize(),
+      success: function(data){
+        console.log(data);
+      }
+    });
+  });
+
+  //for GET
+
+  $(".form").on("submit", function(){
+    $.ajax({
+      url: 'https://api.publicapis.org/entries',
+      method: 'get',
+      dataType: 'html',
+      success: function(data){
+        console.log(data);
+      }
+    });
+  });
+
+ 
 
