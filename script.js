@@ -6,3 +6,15 @@ const swiper = new Swiper(".swiper", {
     },
   });
     
+const buttonRes = document.querySelector('.reserve__button');
+const buttonForm = document.querySelector('.but');
+const form = document.querySelector('.form__container');
+
+buttonRes.addEventListener('click', () => {
+  form.classList.toggle('active');
+})
+
+buttonForm.addEventListener('click', (e) => {
+    e.preventDefault();
+})
+
